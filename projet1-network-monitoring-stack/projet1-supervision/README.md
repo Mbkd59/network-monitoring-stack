@@ -1,11 +1,11 @@
-# 📡 Network Monitoring Stack — Prometheus / Grafana / Alertmanager
+# Network Monitoring Stack — Prometheus / Grafana / Alertmanager
 
 Stack de supervision réseau complète, déployée via **Docker Compose** et provisionnée automatiquement avec **Ansible**.  
 Conçue pour monitorer la disponibilité et les performances d'une infrastructure réseau multi-hôtes.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -28,7 +28,7 @@ Conçue pour monitorer la disponibilité et les performances d'une infrastructur
 
 ---
 
-## 🚀 Déploiement rapide
+##  Déploiement rapide
 
 ### Prérequis
 - Docker & Docker Compose
@@ -61,7 +61,7 @@ docker-compose up -d
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 network-monitoring-stack/
@@ -86,7 +86,7 @@ network-monitoring-stack/
 
 ---
 
-## 📊 Métriques supervisées
+##  Métriques supervisées
 
 | Métrique | Source | Description |
 |----------|--------|-------------|
@@ -98,7 +98,7 @@ network-monitoring-stack/
 
 ---
 
-## 🔔 Alertes configurées
+##  Alertes configurées
 
 - **HostDown** — Un hôte ne répond plus depuis > 1 min
 - **HighLatency** — Latence ICMP > 100ms sur 5 min
@@ -108,7 +108,7 @@ network-monitoring-stack/
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
